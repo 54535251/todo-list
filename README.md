@@ -48,9 +48,7 @@ todo-list/
 ├── todo-advanced/ # Version 2 files
 └── README.md # Project description
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -62,7 +60,7 @@ I started this project to practice frontend development. Over time, I added feat
 
 ## 📸 Screenshots
 
-(Add screenshots later if you want, optional)
+( )
 
 ---
 
