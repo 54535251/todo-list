@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Segoe UI", sans-serif;
+    background:  #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.container{
+   background: white;
+   padding: 30px;
+   border-radius: 15px;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   max-width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333 ;
+}
+
+.input-section{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#taskInput{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+#addTaskBtn{
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ,ease;
+}
+
+#addTaskBtn:hover {
+    background: #0056b3;
+}
+
+#taskList {
+  list-style: none;
+}
+
+.task-item {
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+  }
+  
+  .task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+    background: #e0e0e0;
+  }
+  
+  .task-item button {
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .task-text {
+    flex: 1;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+ 
+  .task-item i {
+    pointer-events: none;
+  }
+  
+  .edit-btn {
+    background-color:#8320f5;
+  }
+  
+  .edit-btn:hover {
+    background-color: #59359d;
+  }
+  
+  .delete-btn {
+    background-color: crimson;
+  }
+  
+  .delete-btn:hover {
+    background-color: #b02a37;
+  }
+  
